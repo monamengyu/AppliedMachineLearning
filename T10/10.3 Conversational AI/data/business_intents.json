@@ -1,0 +1,32 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?", "how can I pay?", "how do I pay you?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?", "what time do you open?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "close_account",
+         "patterns": ["I want to close my account", "I no longer want to be a member", "I want to leave the company", "I have no need of your service"],
+         "responses": ["We're sorry to see you go...", "We will miss you..."]
+        },
+        {"tag": "bot_or_not",
+           "patterns": ["Is this a bot?", "Is there a bot chatting to me?", "Is it automated message?", "Bot or human?", "Bot is chatting with me?", "Are you system generated message?", "Are you robot?", "Are you machine?", "Are you just computer?", "Are you a robot?", "Are you a person?", "Are you a machine?", "Are you a chatbot?", "Are you a bot?", "Are these automated messages?", "Am I talking to a bot?", "You are a boy are girl?", "You are a bot or human?", "This is a machine?", "This is a chatbot?", "System generated reply", "Sir you system generated", "Is this computer based response", "Is this a machine?", "Are you a human?"],
+           "responses": ["That's for me to know, and you to find out.", "Is it important to have that conversation now when there are far more interesting things to ask me?", "I'd really rather not say.", "Talk to the creator...", "why bother ourselves, which such trivial details?", "I feel alive,... do I look alive?"]
+       }
+   ]
+}
+
